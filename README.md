@@ -53,5 +53,46 @@ Recebe informações de todos os agentes sobre a localização dos recursos, atu
 Administra um painel de informações com a localização dos recursos conhecidos.
 Objetivo: Coletar o maior número de recursos coletivamente, considerando o valor de utilidade, através de um processo deliberativo baseado em crenças, desejos e intenções.
 
+Características do Ambiente
+
+Grid: Representa o ambiente bidimensional onde os agentes se movem.
+Base: Localizada na posição (0, 0), é o ponto de partida e retorno dos agentes.
+Obstáculos: Distribuídos aleatoriamente, representam rios e montanhas que os agentes devem evitar.
+Recursos: Distribuídos aleatoriamente, possuem quantidades limitadas e valores distintos.
+Funcionamento da Simulação
+
+Inicialização:
+O usuário define o tamanho do grid e o tempo total de simulação.
+Recursos e obstáculos são distribuídos aleatoriamente no grid.
+Os agentes são posicionados na base.
+Execução da Simulação:
+Em cada passo, os agentes:
+Atualizam suas crenças (quando aplicável).
+Decidem se devem retornar à base.
+Movem-se de acordo com suas estratégias.
+Coletam recursos disponíveis em suas posições.
+Entregam recursos na base.
+O tempo total é decrementado a cada passo.
+Exibição de Informações:
+As posições dos agentes são exibidas em 1/4, 2/4, 3/4 e 4/4 do tempo total de simulação.
+Informações sobre recursos coletados e desempenho são apresentadas ao final.
+Encerramento:
+Antes da tempestade de radiação, é garantido que todos os agentes retornem à base.
+Um relatório final é gerado, comparando o desempenho dos agentes e detalhando os recursos coletados.
+Resultados Esperados
+
+Desempenho dos Agentes: Espera-se que agentes com estratégias mais avançadas (como o Agente BDI) tenham um desempenho superior na coleta de recursos de maior valor.
+Cooperação: Agentes cooperativos podem melhorar a eficiência coletiva, especialmente na coleta de recursos que exigem colaboração.
+Aprendizado: O Agente Baseado em Estado evita áreas já exploradas, otimizando sua exploração.
+Conclusão
+
+Este projeto demonstra a implementação de diferentes paradigmas de agentes autônomos em um ambiente simulado. Através da interação entre agentes e ambiente, é possível observar como diferentes estratégias impactam na eficiência e no desempenho coletivo. A simulação fornece uma plataforma para estudar comportamentos emergentes e a eficácia de técnicas de inteligência artificial na resolução de problemas complexos.
+
+Possíveis Extensões
+
+Implementação de Novos Agentes: Como agentes baseados em aprendizado de máquina ou agentes adaptativos.
+Melhoria na Cooperação: Desenvolvimento de protocolos de comunicação mais avançados entre os agentes.
+Ambientes Dinâmicos: Introduzir mudanças no ambiente durante a simulação, como novos recursos ou obstáculos.
+
 
 
