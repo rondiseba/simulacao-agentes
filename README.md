@@ -1,5 +1,7 @@
 # simulacao-agentes
 Atividade apresentada a disciplina de IA, curso de Ciências da Computação - UFMA
+Prof. Dr. Tiago Bonini
+Rondineli Seba Salomão
 
 Simulação de coleta de recursos por agentes autônomos, com ambiente aleatorio.
 
